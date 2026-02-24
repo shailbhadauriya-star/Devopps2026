@@ -1,0 +1,96 @@
+Java Introduction
+JDK / JRE / JVM
+Eclipse installation
+Data Type - Primitive / Non Primitive
+How to write Java Program
+Explain main method ?
+Variable - Type of Variables 
+a) local variable
+b) instance variable
+c) class variable / static variable
+Method - Type of methods 
+a) instance method
+b) static method
+Operators and their types
+
+Conditional Statements
+if statement 
+if else
+else if ladder
+nested if
+switch ?
+
+Loop - Type of loop
+a) while loop
+b) for loop
+c) do while
+
+Array - 1-D , 2-D
+        enhanced for loop / for each loop
+
+class and object creation
+Data members and methods 
+how to call.
+
+Constructor and Type of constructors
+Default Const
+Parameterized Const
+
+Method Overloading
+Constructor Overloading
+
+encapsulation 
+data hiding
+Abstraction
+
+
+Inheritance  
+Type of Inheritance 
+
+
+
+Method Overriding
+
+constant 
+final keyword - final variable , final method , final class
+
+
+
+collections***
+
+
+Abstract Class 
+Abstract Method 
+
+Interface 
+
+Exception Handling
+
+Type casting ?
+implicit and explicit? 
+Wrapper Classes 
+Autoboxing , unboxing
+Access modifiers  - public , private , protected , default ?
+packages - Type of packages.
+Polymorphism ?
+Compile time and runtime polymorphism ?
+___________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+

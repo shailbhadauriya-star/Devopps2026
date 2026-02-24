@@ -1,0 +1,199 @@
+Java String
+____________
+
+String is probably the most commonly used class in java library.
+
+String class is encapsulated under java.lang  package. 
+
+In java, every string that you create is actually an object of type String.
+
+One important thing to notice about string object is that string objects are 
+immutable that means once a string object is created it cannot be altered.
+
+What is an Immutable object?
+An object whose state cannot be changed after it is created is known as an 
+Immutable object. String, Integer, Byte, Short, Float, Double and 
+all other wrapper class's objects are immutable.
+
+Creating a String object
+_________________________
+String can be created in number of ways, here are a few ways of 
+creating string object.
+
+Using a String literal
+_______________________
+String literal is a simple string enclosed in double quotes " ". 
+A string literal is treated as a String object.
+
+String str1 = "Hello";
+
+Using another String object
+______________________________
+
+String str2 = new String(str1);
+
+
+Using new Keyword
+___________________
+String str3 = new String("Java");
+
+
+Using + operator (Concatenation)
+____________________________________
+String str4 = str1 + str2; 
+    or 
+String str5 = "hello"+"Java";
+
+
+Example:
+
+public class One {
+   
+	public static void main(String[] args) {
+	
+		String s1="Welcome";
+		String s2=new String("Welldone");
+		String s3=new String(s1);
+		String s4="All"+"Is"+"Well";
+		
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(s4);
+		
+    }
+}
+
+Concatenating String
+_________________________
+
+There are 2 methods to concatenate two or more string.
+Using concat() method
+Using + operator
+
+
+Using concat() method
+_______________________
+
+Ex:
+public class One {
+   
+	public static void main(String[] args) {
+	
+		String s1 = "Hello"; 
+		String s2 = "Java"; 
+		String s3 = s1.concat(s2); 
+		String s4 = "Hello".concat("Java"); 
+		
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(s4);
+		
+    }
+}
+
+
+Using + operator
+________________________
+
+Ex:
+
+public class One {
+   
+	public static void main(String[] args) {
+	
+		String s1 = "Hello"; 
+		String s2 = "Java"; 
+		String s3 = s1+s2;
+		String s4 = "Hello"+"Java";
+		
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(s4);
+		
+    }
+}
+
+
+String Comparison
+____________________
+
+String comparison can be done in 3 ways.
+1. Using equals() method
+2. Using == operator
+3. By compareTo() method
+
+
+Using equals() method
+________________________
+equals() method compares two strings for equality. Its general syntax is,
+
+boolean equals(Object str)  
+
+It compares the content of the strings. 
+It will return true if string matches, else returns false.
+
+
+Ex:
+
+public class One {
+   
+	public static void main(String[] args) {
+	
+		String s1="Hello";
+		String s2="Hell";
+		String s3="Hello";
+		System.out.println(s1.equals(s2)); // false
+		System.out.println(s1.equals(s3)); // true
+		
+    }
+}
+
+Using == operator
+___________________
+
+== operator compares two object references to check whether they refer 
+to same instance. This also, will return true on successful match.
+
+Ex:
+public class One {
+   
+	public static void main(String[] args) {
+	
+		String s1 = "Java"; 
+		String s2 = "Java"; 
+		String s3 = new String ("Java"); 
+		System.out.println(s1==s2);//true 
+		System.out.println(s1==s3);//false
+		
+    }
+}
+
+
+
+compareTo() method
+_____________________
+compareTo() method compares values and returns an int .
+
+int compareTo(String str) 
+
+
+Ex:
+public class One {
+   
+	public static void main(String[] args) {
+	
+		String s1 = "Abhi"; 
+		String s2 = "Viraaj"; 
+		String s3 = "Abhi"; 
+
+	System.out.println(s1.compareTo(s2));	  
+	System.out.println(s1.compareTo(s3));	  
+	System.out.println(s1.compareTo(s2));	 
+		
+    }
+}
+
+
